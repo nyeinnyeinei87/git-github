@@ -1,0 +1,167 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+/* Below line is used for online Google font */
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+h2{
+background-color: #FEFFED;
+padding: 30px 35px;
+margin: -10px -50px;
+text-align:center;
+border-radius: 10px 10px 0 0;
+}
+hr{
+margin: 10px -50px;
+border: 0;
+border-top: 1px solid #ccc;
+margin-bottom: 40px;
+}
+div.container{
+width: 900px;
+height: 610px;
+margin:35px auto;
+font-family: 'Raleway', sans-serif;
+}
+div.main{
+width: 300px;
+padding: 10px 50px 25px;
+border: 2px solid gray;
+border-radius: 10px;
+font-family: raleway;
+float:left;
+margin-top:50px;
+}
+.usernameinput[type=text],.passwordinput[type=password]{
+width: 100%;
+height: 40px;
+padding: 5px;
+margin-bottom: 25px;
+margin-top: 5px;
+border: 2px solid #ccc;
+color: #4f4f4f;
+font-size: 16px;
+border-radius: 5px;
+}
+label{
+color: #464646;
+text-shadow: 0 1px 0 #fff;
+font-size: 14px;
+font-weight: bold;
+}
+center{
+font-size:32px;
+}
+.note{
+color:red;
+}
+.valid{
+color:green;
+}
+.back{
+text-decoration: none;
+border: 1px solid rgb(0, 143, 255);
+background-color: rgb(0, 214, 255);
+padding: 3px 20px;
+border-radius: 2px;
+color: black;
+}
+.usernameinput,.passwordinput,.logininput[type=button]{
+font-size: 16px;
+background: linear-gradient(#ffbc00 5%, #ffdd7f 100%);
+border: 1px solid #e5a900;
+color: #4E4D4B;
+font-weight: bold;
+cursor: pointer;
+width: 100%;
+border-radius: 5px;
+padding: 10px 0;
+outline:none;
+}
+.usernameinput,.passwordinput,.logininput[type=button]:hover{
+background: linear-gradient(#ffdd7f 5%, #ffbc00 100%);
+}
+
+.buttonD {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1D {background-color: #810520;} /* Green */
+.button2D {background-color: #3a4e55;} /* Blue */
+
+@media only screen and (max-width: 768px) {
+    [class *="col-"]{
+        width: 100%;
+  
+    }
+    form {
+        width: 100%;
+     }
+     .passwordinput,.usernameinput,.logininput{
+         width: 100%;
+     }
+}
+
+@media screen and (max-width: 600px) {
+    [class *="col-"]{
+        width: 100%;
+  
+    }
+    form {
+        width: 100%;
+     }
+     .passwordinput,.usernameinput,.logininput{
+         width: 100%;
+     }
+
+}
+@media screen and (max-width: 300px) {
+    [class *="col-"]{
+        width: 100%;
+  
+    }
+    span.psw {
+       display: block;
+       float: none;
+    }
+    form {
+       width: 100%;
+    }
+    .passwordinput,.usernameinput,.logininput{
+        width: 100%;
+    }
+  }
+
+  @media all and (max-width:600px){
+    [class *="col-"]{
+        width: 100%;
+  
+    }
+    form {
+        width: 100%;
+     }
+     .passwordinput,.usernameinput,.logininput{
+         width: 100%;
+     }
+
+  }
+
+  @media all and (max-width:400px){
+    [class *="col-"]{
+        width: 100%;
+  
+    }
+    form {
+        width: 100%;
+     }
+     .passwordinput,.usernameinput,.logininput{
+         width: 100%;
+     }
+
+  }
+/*-----------------------------------------------------------------------------------------------------*/
